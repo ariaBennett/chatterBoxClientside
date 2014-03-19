@@ -50,7 +50,7 @@ var displayNewMessages = function(messages) {
 // Create POST data
 var makePost = function(url, type, data, success, fail) {
   return {
-    url: '138.91.225.40:3000/classes/' + url,
+    url: 'chatserv.azurewebsites.net:3000/classes/' + url,
     type: type, 
     data: JSON.stringify(data),
     contentType: 'jsonp',
