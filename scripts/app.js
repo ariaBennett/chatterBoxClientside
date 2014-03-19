@@ -50,7 +50,7 @@ var displayNewMessages = function(messages) {
 // Create POST data
 var makePost = function(url, type, data, success, fail) {
   return {
-    url: 'http://127.0.0.1:3000/classes/' + url,
+    url: 'http://ariachatserver.azurewebsites.net/classes/' + url,
     type: type, 
     data: JSON.stringify(data),
     contentType: 'jsonp',
